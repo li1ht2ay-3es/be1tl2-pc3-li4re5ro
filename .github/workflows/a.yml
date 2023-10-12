@@ -45,13 +45,6 @@ jobs:
           echo "";
         }
 
-        merge aspect-ratio
-        merge audio-rate
-        merge color-depth
-        merge mingw-flags
-        merge sprite-limit
-        merge volume-level
-
 
 
     - if: matrix.arch == 'x86' || matrix.arch == 'x64'
