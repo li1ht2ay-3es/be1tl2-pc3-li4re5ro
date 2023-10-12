@@ -69,7 +69,7 @@ jobs:
 
     - uses: actions/upload-artifact@main
       with:
-        name: beetle_pce_libretro_${{ inputs.arch }}
+        name: beetle_pce_libretro_${{ matrix.arch }}
         path: |
           ${{ github.workspace }}/**.dll
           ${{ github.workspace }}/**.so
